@@ -1,0 +1,1 @@
+module.exports = -> Framer.CurrentContext._layers.forEach (l) -> l.name = l._info.originalName if l._info?.originalName
